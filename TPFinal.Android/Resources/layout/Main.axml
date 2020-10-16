@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="Nome da Mercadoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id ="@+id/NmMercadoria/"
+        android:inputType="text" />
+    <EditText
+        android:hint="Peso da Mercadoria"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PesoMercadoria/" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/NmFornecedor/"
+        android:hint="Nome do Fornecedor"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailFornecedor/"
+        android:hint="Email do Fornecedor" />
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NCM/"
+        android:hint="NCM" />
+
+    <LinearLayout
+        
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        <Button
+            android:text="Adicionar"
+            android:layout_height=""
+            android:layout_width=""
+            android:id="@+id/btnAdicionar/"
+            android:layout_weight="1" />
+        <Button
+            android:text="Alterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnAlterar/" />
+
+        <Button
+            android:text="Excluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExcluir" />
+
+        <Button
+            android:text="GPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/GPS/" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sobre os Criadores"
+            android:id="@+id/" />
+
+    </LinearLayout>
+
+
+<ListView
+    andr0oid:layout_width="25px"
+    android:layout_height="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvView"/>
+
+</LinearLayout>
